@@ -1,0 +1,30 @@
+{
+  "name": "ReactSampleSoftwarePortal",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/pradeep2907/SampleSoftwarePortal.git",
+  "license": "PAN",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeep2907/SampleSoftwarePortal.git"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "@types/jquery.prettyphoto": "^3.1.28",
+    "jquery": "^3.1.1",
+    "moment": "^2.15.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
